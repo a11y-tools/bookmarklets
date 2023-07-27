@@ -1,5 +1,5 @@
 /*
-*   a11y.js - output of a11ytools/a11y-lib build process
+*   a11y.js - output of a11y-tools/a11y-lib build process
 */
 
 export {
