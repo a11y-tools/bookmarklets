@@ -7,8 +7,8 @@ export { getCssClass, getGlobalName, getTitle, getVersion };
 var CONSTANTS = {};
 Object.defineProperty(CONSTANTS, 'classPrefix',  { value: 'a11yGfdXALm' });
 Object.defineProperty(CONSTANTS, 'globalPrefix', { value: 'a11y' });
-Object.defineProperty(CONSTANTS, 'title',        { value: 'a11y-tools/bookmarklets-lib' });
-Object.defineProperty(CONSTANTS, 'version',      { value: '0.3.0' });
+Object.defineProperty(CONSTANTS, 'title',        { value: 'a11y-tools/bookmarklets' });
+Object.defineProperty(CONSTANTS, 'version',      { value: '0.4.0' });
 
 function getCssClass (appName) {
   const prefix = CONSTANTS.classPrefix;
@@ -19,7 +19,6 @@ function getCssClass (appName) {
     case 'Images':      return prefix + '2';
     case 'Landmarks':   return prefix + '3';
     case 'Lists':       return prefix + '4';
-    case 'Interactive': return prefix + '5';
   }
 
   return 'unrecognizedName';
